@@ -33,7 +33,6 @@ packages:
   - wget-ssl
   - luci-theme-argon
   - luci-app-adguardhome
-  - luci-app-aliddns
   - luci-app-ddns
   - luci-app-argon-config
   - luci-app-ramfree
@@ -45,4 +44,3 @@ packages:
   - luci-app-turboacc
   - luci-app-cpufreq
   - luci-app-ttyd
-  - luci-app-serverchan
