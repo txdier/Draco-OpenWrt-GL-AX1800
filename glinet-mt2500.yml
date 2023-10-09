@@ -6,22 +6,22 @@ description: Build image for the GL.iNET MT2500
 feeds:
   - name: gl_feed_common
     uri: https://github.com/gl-inet/gl-feeds.git
-    branch: common
+    revision: 341ee97aaa761c0fc93a0d28fc8634d42f7f7c4c
   - name: gl_feed_21_02
     uri: https://github.com/gl-inet/gl-feeds.git
-    revision: 6b4d34ac72719c22de6e2c365b476e5e9bef18ca
+    revision: 581563a214d313c367d7ffe5a1e9038fc18292ed
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: aa138685f082cde70b9346dec268ddfa6246e44f
+    revision: fa26c805986eafea59efb76965a67e04201fd429
   - name: immortalwrt_luci
     uri: https://github.com/immortalwrt/luci.git
     branch: openwrt-21.02
-    revision: bed9148cccf9a639d7c9f6c544a216a9d3c3efe5
+    revision: 94f026b4e9aeea0caa460e190dbb40c77c15b3e6
   - name: small_package
     uri: https://github.com/kenzok8/small-package.git
     branch: main
-    revision: 0fbb5e3d7de1cb722b7ee2785cb13484065d1587
+    revision: 138efb6701508830bd5b5fd227dfe435c89d1cc6
 packages:
   - tailscale:gl_feed_common
   - fwdd
